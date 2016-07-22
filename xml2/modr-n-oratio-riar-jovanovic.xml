@@ -1,0 +1,326 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="modr-n-oratio-riar">
+         <titleStmt>
+            <title>Oratio in funere Petri Riarii, versio electronica</title>
+            <author ref="nikolamodr01">
+               <persName xml:lang="hr">Nikola Modruški</persName>
+               <date>c. 1427-1480</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition> Prima editio electronica. </edition>
+         </editionStmt>
+         <extent ana="C">Mg:C Verborum 4115</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Neolatina Croatica, znanstveni projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u
+                     Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska. <date>srpanj
+                  2005</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+         </sourceDesc>
+
+         <!-- Ovo je glavni tekst, kako sam ga ja uspostavio -->
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="abbr" occurs="3"/>
+               <tagUsage gi="abstract" occurs="1"/>
+               <tagUsage gi="add" occurs="12"/>
+               <tagUsage gi="author" occurs="1"/>
+               <tagUsage gi="bibl" occurs="11"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="change" occurs="1"/>
+               <tagUsage gi="closer" occurs="1"/>
+               <tagUsage gi="corr" occurs="68"/>
+               <tagUsage gi="creation" occurs="1"/>
+               <tagUsage gi="date" occurs="4"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="edition" occurs="1"/>
+               <tagUsage gi="editionStmt" occurs="1"/>
+               <tagUsage gi="editor" occurs="1"/>
+               <tagUsage gi="encodingDesc" occurs="1"/>
+               <tagUsage gi="expan" occurs="3"/>
+               <tagUsage gi="extent" occurs="1"/>
+               <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="keywords" occurs="3"/>
+               <tagUsage gi="langUsage" occurs="1"/>
+               <tagUsage gi="language" occurs="1"/>
+               <tagUsage gi="namespace" occurs="1"/>
+               <tagUsage gi="note" occurs="10"/>
+               <tagUsage gi="orgName" occurs="1"/>
+               <tagUsage gi="p" occurs="26"/>
+               <tagUsage gi="particDesc" occurs="1"/>
+               <tagUsage gi="persName" occurs="19"/>
+               <tagUsage gi="placeName" occurs="21"/>
+               <tagUsage gi="profileDesc" occurs="1"/>
+               <tagUsage gi="publicationStmt" occurs="1"/>
+               <tagUsage gi="q" occurs="16"/>
+               <tagUsage gi="quote" occurs="7"/>
+               <tagUsage gi="ref" occurs="24"/>
+               <tagUsage gi="resp" occurs="1"/>
+               <tagUsage gi="respStmt" occurs="1"/>
+               <tagUsage gi="revisionDesc" occurs="1"/>
+               <tagUsage gi="settingDesc" occurs="1"/>
+               <tagUsage gi="sic" occurs="8"/>
+               <tagUsage gi="sourceDesc" occurs="1"/>
+               <tagUsage gi="tagUsage" occurs="45"/>
+               <tagUsage gi="tagsDecl" occurs="1"/>
+               <tagUsage gi="teiHeader" occurs="1"/>
+               <tagUsage gi="term" occurs="5"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="textClass" occurs="1"/>
+               <tagUsage gi="title" occurs="1"/>
+               <tagUsage gi="titleStmt" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1474" period="14xx_3_third">1474</date>
+            <placeName>Rim</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1451-1500</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - oratio</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-02-15</date> Novo, unificirano zaglavlje. </change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="prosa-oratio">
+      <body>
+         <div type="oratio">
+            <head>
+          <s>Oratio in funere reuerendissimi domini domini Petri cardinalis sancti Sixti habita a reuerendo patre domino Nicolao episcopo Modrusiensi<pc>.</pc></s>
+        </head>
+            <p>
+          <s>Cum in omni funebri celebratione duo praecipue dicendi genera a maioribus nostris usurpari soleant<pc>,</pc> amplissimi patres<pc>,</pc> alterum quo tristes amicorum animos maerore leuarent<pc>,</pc> quibus cum amici uita suauissima extitit<pc>,</pc> mors ipsa iocunda esse non potuit<pc>,</pc> alterum quo extremum amici munus rebus ab eo bene gestis uirtutumque ipsius copia ac splendore amplissimis laudibus exornarent<pc>,</pc> illud ego prius consolationis genus ita prorsus in omne tempus perdidi ut magis ipse solacio egeam quam ut illud cuique uel praestare possim uel polliceri<pc>.</pc></s>
+          <s> Quod etiam si minime perdidissem<pc>,</pc> nunquam tamen dispicere possem qua oratione aut quibus rationibus etiam illi quidem<pc>,</pc> qui principes eloquentiae sunt habiti<pc>,</pc> hanc tam grauem sacrosancti senatus uestri iacturam et hunc publicum totius curiae luctum ulla ex parte leuari possent<pc>.</pc></s>
+          <s> Perdidistis enim<pc>,</pc> patres amplissimi<pc>,</pc> praestantissimum collegam uestrum<pc>,</pc> cuius suauissimam consuetudinem<pc>,</pc> comitatem<pc>,</pc> benignitatem<pc>,</pc> liberalitatemque quotidie experiebamini<pc>,</pc> cuius ingenii dexteritatem et incredibilem consilii prudentiam in dies magis admirabamini<pc>.</pc></s>
+          <s> Amisistis summi pontificis<pc>,</pc> patris uestri piissimi<pc>,</pc> singulare solacium et sacrae eius senectutis optatissimum baculum<pc>,</pc> participem secretorum<pc>,</pc> laborum socium<pc>,</pc> peregrinationis comitem<pc>,</pc> leuamen curarum<pc>,</pc> et per quem totius orbis principibus fidissima responsa et reddere consueuerat et accipere<pc>.</pc></s>
+          <s> Absit uero inuidia et liuor edax saltem parcat cineribus<pc>.</pc></s>
+          <s> Extinctus iacet optimarum artium deditissimus amator<pc>;</pc> interiit omnium studiosorum praecipuus fautor<pc>,</pc> cultor bonorum<pc>,</pc> curiae splendor<pc>,</pc> ornamentum ciuitatis<pc>,</pc> et huius urbis diligentissimus restaurator<pc>.</pc></s>
+          <s> Corruit praeclarum magnanimitatis exemplar<pc>,</pc> cecidit munificentiae<pc>,</pc> gratitudinis<pc>,</pc> et totius liberalitatis alumnus<pc>.</pc></s>
+          <s> Cuius iactura cum uniuersis lugenda sit<pc>,</pc> tum mihi praecipue atque his infelicissimis conseruis meis<pc>,</pc> quibus haec crudelis et dira mors tam benignissimum abstulit dominum<pc>,</pc> interuertit benefactorem<pc>,</pc> ademit praesidium<pc>,</pc> et unico atque eodem piissimo patre nos acerba orbauit<pc>.</pc></s>
+          <s> Nolite igitur<pc>,</pc> nolite expectare<pc>,</pc> praestantissimi patres<pc>,</pc> ut luctum ac maerorem<pc>,</pc> in quo et uos nunc esse intueor et me ac totam hanc miserandam familiam<pc>,</pc> quoad uixerimus<pc>,</pc> fore necesse est<pc>,</pc> uobis adimam<pc>.</pc></s>
+          <s> Quin potius pro uestra clementia dabitis dolori meo ueniam si eius acerbitate abductus nec rerum ordinem seruare ualeam nec uerborum tenere modum<pc>,</pc> praesertim cum ea culpa libentius ego carere uellem quam illam a uobis deprecari si mihi impositum onus detractare licuisset<pc>;</pc> agam tamen ut potero<pc>,</pc> et minus temeritatis quam ingratitudinis notam subire uerebor<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Dicturus igitur de laudibus reuerendissimi domini domini Petri cardinalis sancti Sixti<pc>,</pc> cuius miserandum funus hodierna die celebratur<pc>,</pc> eas laudes<pc>,</pc> quas uel a parentibus uel a patria ipsius colligere poteram<pc>,</pc> hoc loco praetermittendas putaui<pc>;</pc> non quod illas aut obscuras aut tenues fore dixerim<pc>,</pc> quoniam et honestissimis nobilissimisque ciuitatis suae parentibus est ortus<pc>,</pc> et celeberrimo uetustoque Ligurum oppido Saona<pc>,</pc> uerum quod ipse illis tanto decori ac ornamento fuerit ut toto in orbe extremisque terrarum finibus amplissimis laudibus summaque gloria et celebrantur nunc et omnibus futuris saeculis non desinent celebrari<pc>.</pc></s>
+          <s> Quae quidem tametsi satis grandis eius gloria sit qui maioribus suis tam insignia uirtutis ornamenta dederit potius quam ab illis acceperit<pc>,</pc> habeo tamen et alias immortales ac propemodum diuinas animi ipsius laudes (ut fortunae corporisque quaelibet ingentia bona tanquam aliena relinquam): pietatem<pc>,</pc> magnitudinem animi<pc>,</pc> munificentiam<pc>,</pc> prudentiam<pc>,</pc> modestiam<pc>,</pc> atque iustitiam<pc>;</pc> quae quales in eo fuerint<pc>,</pc> breuiter explicare conabor<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Qua igitur pietate primum erga deum fuerit quamque magnificus cultor ipsius<pc>,</pc> si aduixisset<pc>,</pc> futurus erat<pc>,</pc> in primo uitae suae limine clarissime demonstrauit<pc>.</pc></s>
+          <s> Annos natus duodecim<pc>,</pc> cum orbatam patre familiam tanta prudentia regeret ut nec mater<pc>,</pc> matronarum praestantissima<pc>,</pc> nec fratres eius parentis sentirent desiderium<pc>,</pc> coepit deo dicatum pectus zelo religionis feruescere<pc>.</pc></s>
+          <s> Clarescebat autem iam tunc nomen religiosissimi doctissimique uiri magistri Francisci<pc>,</pc> conciuis et auunculi sui<pc>,</pc> nunc summi pontificis papae Sixti<pc>,</pc> qui per id tempus Senis suis fratribus sacras scripturas interpretabatur<pc>.</pc></s>
+          <s> Hunc optimum Christianae militiae magistrum optimus futurus discipulus<pc>,</pc> quamuis puerili aetate<pc>,</pc> uirili tamen sensu sibi delegit<pc>;</pc> ad quem a religioso quodam sene multis exorato precibus inscia matre perductus est<pc>;</pc> diuino<pc>,</pc> ut opinor<pc>,</pc> nutu futurus ad apostolatum tam strenuus minister ad futurum sedis apostolicae mittitur antistitem<pc>.</pc></s>
+          <s> Quem ubi conspexisset Franciscus iam religionis ueste indutum<pc>,</pc> quam idcirco iuuenis in itinere assumpserat quo se facilius magistro suo insinuaret<pc>,</pc> multis eum hortatus est ut ad suos remearet et matris fratrumque curam<pc>,</pc> ut coeperat<pc>,</pc> ageret uel maturiorem domi praestolaretur aetatem<pc>,</pc> quae pati melius iugum Christi posset<pc>.</pc></s>
+          <s> Sed cum pueri constantiam nullis blanditiis<pc>,</pc> nullis persuasionibus<pc>,</pc> nullis denique minis euincere posset<pc>,</pc> diuinum<pc>,</pc> ut erat<pc>,</pc> in eo aliquod munus arbitratus<pc>,</pc> hortantibus fratribus diui eum Francisci sacris initiauit<pc>,</pc> seruatisque pro more religionis rite caerimoniis uestem Christi induit<pc>.</pc></s>
+          <s> Qua assumpta ita omnia tyrocinii rudimenta libens promptusque et perdiscebat et exsequebatur ut nemo dubitaret et prudentiam illi et uires ante aetatem non nisi diuinitus subministrari<pc>.</pc></s>
+          <s> Quas ob res omnibus carus<pc>,</pc> omnibus dilectus esse coepit<pc>,</pc> praecipue autem ipsi auunculo suo<pc>,</pc> qui diuina eius indole mirifice delectatus piissimo sanctissimoque eum amplectebatur affectu<pc>.</pc></s>
+          <s> Vnde sibi curandum statuit ut tam excellens ingenium per bonas artes excoleretur<pc>.</pc></s>
+          <s> Itaque docto cuidam grammatico Latinis eum litteris Vicheriae imbuendum tradidit<pc>,</pc> quibus mira celeritate perceptis mox Ticinium<pc>,</pc> deinde Patauium<pc>,</pc> subinde Venetias<pc>,</pc> Bononiam<pc>,</pc> Perusium<pc>,</pc> Senam<pc>,</pc> Ferariamque misit ut<pc>,</pc> quaecumque in tam celeberrimis Italiae gymnasiis aut liberalium artium aut sacrarum litterarum dogmata florerent<pc>,</pc> ipse uelut operosa apis undique colligeret et in sacram pectoris sui cellulam diligenter reconderet<pc>.</pc></s>
+          <s> Quod quidem intra breues annos adeo consecutus est ut credibile non sit uirum ad agendum magis quam ad philosophandum natum tantam omnium scientiarum notitiam adeo breuiter percipere potuisse<pc>.</pc></s>
+          <s> Habeo hic testes complures<pc>,</pc> familiares eius<pc>,</pc> uiros quidem doctissimos<pc>,</pc> quibuscum inter cenandum de uariis disciplinarum studiis frequenter disserere consueuerat adeo acute adeoque prompte ac subtiliter de quaestione proposita ut eum putares die noctuque nulli adeo alii rei quam euoluendis theologorum philosophorumque libris uacare<pc>.</pc></s>
+          <s> Tenebat fixa memoriae quaecunque ab ineunte aetate a praeceptoribus audierat<pc>.</pc></s>
+          <s> Vigebat praeterea stupendo ingenii acumine<pc>,</pc> cuius perspicacitate facile in abditissima quaeque naturae secreta penetrabat<pc>,</pc> et ex perceptis semel principiis difficillima quaeuis uel philosophiae uel theologiae problemata summa cum omnium admiratione absoluebat<pc>;</pc> uersus complures multosque grammaticae textus<pc>,</pc> quos olim puer edidicerat<pc>,</pc> ita memoriter recitabat ut ea illum heri aut nudiustertius memoriae mandasse existimares<pc>.</pc></s>
+          <s> Perfectis igitur quam celerrime omnium bonarum artium studiis<pc>,</pc> rediit sollicitus ad magistrum<pc>,</pc> munus<pc>,</pc> cui caelitus destinatus erat<pc>,</pc> optime impleturus<pc>.</pc></s>
+          <s> Inerat enim menti eius praesaga quaedam futurorum diuinitas complurimaque<pc>,</pc> antequam contigissent<pc>,</pc> per quietem discebat<pc>,</pc> ita ut insomnia ipsius non uisa solum<pc>,</pc> sed certa uiderentur oracula<pc>.</pc></s>
+          <s> Quibus uarie sollicitatus coepit auunculum suum hortari<pc>,</pc> coepit importunius compellere Romam peteret atque in ea urbe uersari uellet<pc>,</pc> in qua a maximo omnium rectore deo futurus summus pontifex erat designatus<pc>;</pc> ubi et seipsum accepturum ab eo cardinalatus decus et alios uniuersos honores<pc>,</pc> quibus eum functum uidimus<pc>,</pc> mira asseueratione praedicebat<pc>.</pc></s>
+          <s> Cerno hic nonnullos praelatos et ex aliis ordinibus uiros praestantes a quibus magna cum attestatione audiui singula haec<pc>,</pc> quae gessit<pc>,</pc> multis ante annis ab ipso praedicta fuisse<pc>.</pc></s>
+          <s> Itaque repugnantem magistrum et se tanto fastigio indignum reclamantem urgere non destitit donec multis et signis et prodigiis euictum propulit Romam proficisci<pc>,</pc> in qua constitutus minime conquieuit antequam demandatum ab altissimi prouidentia munus uiriliter absolueret et magistrum suum per uaria bonorum incrementa ad summum apostolatus culmen conscendisse uideret<pc>,</pc> pro quibus laboribus et pro tam diligenti nauata opera eadem ipsa diuina prouidentia<pc>,</pc> quae semper infirma mundi eligere consueuit ut fortia quaeque confundat<pc>,</pc> cardinalis eum dignitatis splendore uoluit illustrare omnibusque mundi principibus ostendere quo ministro et ex quam humili loco accepto uoluerit in sui uicarii assumptione uti<pc>,</pc> ut discerent uniuersi ueram certamque esse illam Nabuchdonosoris confessionem in quam et regno et sensui restitutus supplex prorupit dicens in manu solius omnipotentis dei esse omnia regna terrarum atque illa quibus ipse uoluerit tradi nec esse alium quemquam qui eius possit obsistere uoluntati aut dicere illi quare sic fecisti<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Petrus igitur per hunc modum in principatu constitutus<pc>,</pc> qui solet uiros ostendere<pc>,</pc> talem sese exhibuit qualem uix optare poteramus<pc>,</pc> non sperare<pc>.</pc></s>
+          <s> Assumpsit enim cum sublimi magistratu sublimes animos et spiritus tanti imperii maiestate dignos<pc>,</pc> simulque cum eis magnanimitatem<pc>,</pc> clementiam<pc>,</pc> munificentiam<pc>,</pc> et caeteras<pc>,</pc> quas prius commemorauimus<pc>,</pc> imperantium uirtutes<pc>;</pc> quibus et ausus est cum regibus et principibus magna gloria non segnius contendere quam si in illis natus educatusque fuisset<pc>,</pc> ut coepta eius declarant aedificia<pc>,</pc> totque magnificentissimo cultu celebrata conuiuia<pc>,</pc> et suppellex imperialibus fastibus digna<pc>.</pc></s>
+          <s> Turpe enim et indecorum merito ducebat in hoc totius orbis capite<pc>,</pc> in hac prima Christianae religionis sede<pc>,</pc> ad quam adorandam imperatores<pc>,</pc> reges<pc>,</pc> et cuncti ferme principes terrarum uentitare solent<pc>,</pc> non talem esse suppellectilem<pc>,</pc> non talia exstare palacia<pc>,</pc> quibus eos summus pontifex et suscipere honorifice posset et pro sua ipsorumque dignitate splendide honorare<pc>.</pc></s>
+          <s> Vnde et in hos usus omnia illa se comparare affirmabat<pc>,</pc> nec sibi<pc>,</pc> sed summis pontificibus<pc>,</pc> quicquid praeparabat<pc>,</pc> componere<pc>.</pc></s>
+          <s> Affluebant quotidie opes et ab omnibus ferme Christianis principibus magni prouentus ultro offerebantur<pc>;</pc> quos licet ipse in illos<pc>,</pc> quos diximus<pc>,</pc> acceptaret usus<pc>,</pc> prophetici tamen documenti memor minime ad ea cor apponebat neque illis auaro deuincebatur affectu<pc>.</pc></s>
+          <s> Hinc est quod nec sciebat numerum nec omnino quid haberet aut quid impenderet nosse uolebat<pc>,</pc> nullas a ministris impensarum exigebat rationes<pc>,</pc> nulla computa exigere uolebat<pc>.</pc></s>
+          <s> Iactura rerum ea duntaxat mouebatur quae negligentia contigisset<pc>,</pc> culpam magis dolens quam damnum<pc>.</pc></s>
+          <s> A suscepto semel negotio nullo metu absterreri potuerat<pc>,</pc> nullo periculo depelli<pc>.</pc></s>
+          <s> Verax in sermone<pc>,</pc> in facto fidelis<pc>,</pc> in proposito constans<pc>,</pc> in peragendo strenuus<pc>,</pc> secretorum tenacissimus<pc>,</pc> et promissorum firmissimus obseruator<pc>.</pc></s>
+          <s> Insignia haec sunt magnanimitatis eius testimonia<pc>.</pc></s>
+          <s> Sed illud mea sententia uincit uniuersa quod nullis mouebatur iniuriis<pc>,</pc> nullis offensis laedi posse uidebatur<pc>,</pc> nec ullius rei facilius quam inimicitiarum obliuiscebatur<pc>.</pc></s>
+          <s> Floccipendebat aemulos quoscumque et nullam in rem pronior quam in supplicium ueniam uidebatur<pc>,</pc> tantumque ab omni ulciscendi ardore aberat ut inimicis suis benefacere gauderet<pc>.</pc></s>
+          <s> Nihil in se fictum<pc>,</pc> nihil subdolum aut simulatum esse uolebat<pc>,</pc> nec quicquam magis detestabatur quam mentitam probitatem<pc>.</pc></s>
+          <s> Mali quippe et iniqui hominis esse dicebat meliorem se foris ostendere quam gerere domi<pc>,</pc> proborum autem uirorum esse non simulatione<pc>,</pc> sed integritate uiros superare<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Sane munificentiae liberalitatisque eius largitatem quis est qui ignoret nisi qui illa uti uel noluerit uel nescierit? Ea ipse ita flagrabat ut illos etiam<pc>,</pc> quibus iustis de causis aliquando irascebatur<pc>,</pc> muneribus tamen ornare non cessaret<pc>.</pc></s>
+          <s> Non semel neque solus interfui<pc>,</pc> cum quosdam familiarium merito obiurgasset<pc>,</pc> deinde uestimentis et magistratu donauit<pc>.</pc></s>
+          <s> Et cum aliquando a magistro domus suae<pc>,</pc> in cuius diligentissima fidissimaque cura merito conquiescebat<pc>,</pc> liberius argueretur quod nimia indulgentia et largitate domesticos faceret insolentiores<pc>,</pc> placida uoce respondit: Tuum est familiares meos pro neglecto officio corrigere<pc>,</pc> meum autem pro illorum in me amore congruis praemiis afficere<pc>;</pc> id faciendo uterque nostrum suo munere optime fructus erit<pc>.</pc></s>
+          <s> O praeclaram uocem<pc>,</pc> o sententiam summo principe dignam<pc>;</pc> nec impunitatem erratorum laudauit<pc>,</pc> nec liberalitatem suam ullis male merentium factis occludi passus est<pc>.</pc></s>
+          <s> Felices quibus illa perfrui licuit<pc>,</pc> et nunc omnium infortunatissimos quibus tam crudeli fato erepta est<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Quingentos ferme pascebat familiares<pc>,</pc> partim illustri<pc>,</pc> partim nobili<pc>,</pc> omnes honesto loco natos: praelatos<pc>,</pc> milites<pc>,</pc> doctores<pc>,</pc> oratores<pc>,</pc> poetas<pc>,</pc> aut alicui alii honestae arti deditos<pc>;</pc> nullis tantorum sumptibus<pc>,</pc> nullis grauabatur impensis<pc>.</pc></s>
+          <s> Hospitem enim sese omnium honestorum uirorum esse dicebat<pc>,</pc> quod ipsa ueritate erat uerius<pc>.</pc></s>
+          <s> Nam si quis diligentius rem ipsam consideret<pc>,</pc> comperiet procul dubio omnes cardinalium domos nihil aliud esse quam honesta hospitia<pc>,</pc> in quae proborum uirorum liberis uel necessitatis uel bonorum morum gratia diuersari licet<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Accipiebat praeterea munera<pc>,</pc> non auaritiae<pc>,</pc> sed honoris comparandaeque beniuolentiae gratia<pc>,</pc> quibus tamen in acceptandis ea lege utebatur ut multo ampliora rependeret quam acciperet<pc>.</pc></s>
+          <s> Testes sunt omnes qui hac officiorum uicissitudine cum eo decertare uoluerunt<pc>.</pc></s>
+          <s> Complures in hoc coetu astare non dubito qui me uera praedicare nouerunt<pc>,</pc> et qui post acceptos ab eo non paruos honores multa insuper dona tulerunt<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Vidi illum quodam uesperi non sine graui stomacho lacrimis suffusum oculos et cum multa indignatione deum optimum maximumque testem citare atque<pc>,</pc> cum nemo cogeret minimeque ea re opus esset<pc>,</pc> dirissima quaeque in se caputque suum impetrantem si ullas pecunias aut ulla Symoniacae perfidiae praemia abs quoquam eorum accepisset qui nuper in hunc sacrosanctum senatum apostolicum lecti noscuntur<pc>,</pc> seque ab inuidis atque malignis impie ac flagitiose eius criminis insimulari persancte iurabat<pc>.</pc></s>
+          <s> Angi eum uehementer et summis animi cruciatibus torqueri uideres quod sibi<pc>,</pc> ut dicebat<pc>,</pc> per detrahentium liuorem non liceret in uiros praestantes ac bene meritos officiosum esse<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Vbi nunc sunt rubiginosa illa maliuolorum pectora<pc>,</pc> ubi sunt dirissimo felle manantia praecordia<pc>,</pc> ubi rabidorum canum pestiferi dentes<pc>,</pc> qui inexpiabili temeritate ausi sunt os suum in caelo ponere et uicarii Christi fratrumque eius<pc>,</pc> tam excellentissimorum patrum<pc>,</pc> factum damnare atque illos praestantissimos uiros<pc>,</pc> qui prius a domino electi sunt<pc>,</pc> a quo sunt omnium regnorum potestates<pc>,</pc> quam a summo pontifice declarati<pc>,</pc> perditissima audacia lacerare! Caue<pc>,</pc> caue tibi<pc>,</pc> lingua dolosa<pc>,</pc> ne deus destruat te in finem<pc>,</pc> euellet te<pc>,</pc> et emigret te de tabernaculo tuo<pc>,</pc> et radicem tuam de terra uiuentium<pc>.</pc></s>
+          <s> Sed haec illi uiderunt qui fecerunt linguam suam nouaculam acutam<pc>,</pc> et sedentes aduersus fratrem suum tota die concinnabant dolos<pc>.</pc></s>
+          <s> Sed haec illi uiderunt<pc>;</pc> nos interea reliquas Petri uirtutes<pc>,</pc> non quibus debemus<pc>,</pc> sed quibus possumus<pc>,</pc> laudibus prosequamur<pc>.</pc></s>
+          <s> Itaque<pc>,</pc> ut propositus ordo postulat<pc>,</pc> nunc ipsius prudentiam contemplemur<pc>,</pc> quamuis eius excellentia iam per ea<pc>,</pc> quae narrauimus<pc>,</pc> magna ex parte potuit esse manifesta<pc>.</pc></s>
+          <s> Quamobrem tantum eam partem attingam qua ita sese inter principes christianos gessit ut<pc>,</pc> cum unius erga eum beniuolentiam consideres<pc>,</pc> credas ab aliis minime dilectum<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Lex quippe amicitiae ita habet ut amicos inimicorum minime diligamus<pc>;</pc> hic tamen sua prudentia consecutus est ut aeque carus omnibus haberetur<pc>,</pc> nec ullus esset qui eius amicitiam ultro non expeteret<pc>,</pc> et adeptam studiis omnibus non coleret atque foueret<pc>.</pc></s>
+          <s> Ostendit id nouissima haec ipsius legatio in qua omnes Italiae populi singulique ipsorum principes summis decertarunt studiis quisnam eum amplioribus honoribus exciperet et prosequeretur<pc>,</pc> illeque se uicisse putabat qui plurima in eum ornamenta contulisset<pc>.</pc></s>
+          <s> In quibus acceptandis adeo prudens temperamentum inibat ut<pc>,</pc> cum omnium communis esset amicus<pc>,</pc> singuli tamen sibi eum uendicasse putabant<pc>.</pc></s>
+          <s> Vnde sua illi negotia credebant<pc>,</pc> et rerum omnium summam fidei ipsius ultro committebant<pc>.</pc></s>
+          <s> Fallebat neminem<pc>,</pc> et communem rem gerendo singulorum tamen uidebatur aduocatus<pc>.</pc></s>
+          <s> Secedebat bis terque per diem in cubiculum aut in aliquem secretiorem locum in quo ad multam horam deambulando summas reipublicae christianae rationes tacitus secum computabat<pc>;</pc> totas enim animi uires<pc>,</pc> postquam a legatione redierat<pc>,</pc> in pacem Italiae et perfidi hostis Christiani exitum intenderat<pc>,</pc> id unum moliebatur<pc>,</pc> id parabat<pc>,</pc> illuc omnia sua studia conuerterat<pc>,</pc> fecissetque uotis satis ni eum nobis haec dira atque crudelis mors tam repente praeripuisset<pc>.</pc></s>
+          <s> Vincebat ingenio humana consilia<pc>,</pc> et tantum grauioribus reipublicae curis natus uidebatur<pc>;</pc> haec erat praecipua eius uoluptas<pc>,</pc> a qua nullis aliis oblectamentis poterat diuelli<pc>,</pc> huius delectabatur gustu<pc>,</pc> huius solius escis pascebatur<pc>.</pc></s>
+          <s> Omnium saluti die noctuque inseruiebat<pc>,</pc> et tamen a nonnullis negligentiae accusabatur<pc>,</pc> quem tanquam superbum difficilemque ingrati criminabantur cum tamen et mitissimus esset et facillimus<pc>.</pc></s>
+          <s> Nouit hoc tantus domesticorum eius numerus<pc>,</pc> norunt amici et alii omnes qui eius familiaritate usi fuerunt<pc>,</pc> quibus semper<pc>,</pc> cum per publicas licuisset curas<pc>,</pc> placidum sese exhibebat<pc>,</pc> affabilem<pc>,</pc> comem<pc>,</pc> benignum<pc>,</pc> ut socium crederes<pc>,</pc> non dominum<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Tanta uero animi moderatione erat ut irasceretur perraro<pc>,</pc> iratus autem extemplo animum ad tranquillitatem reuocaret<pc>.</pc></s>
+          <s> De nullo obloquebatur<pc>,</pc> detrahebat nemini<pc>,</pc> et<pc>,</pc> nisi familiarium suorum<pc>,</pc> aliorum uitae minime erat curiosus<pc>.</pc></s>
+          <s> Maximum eius conuitium putabatur si quem<pc>,</pc> quod tamen parcissime fiebat<pc>,</pc> per iocum aliquo urbanitatis sale respersisset<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Cibi uinique moderatissimi<pc>,</pc> somnolentiae nullius<pc>,</pc> immo uero peruigil<pc>,</pc> et qui multis quotidie horis auroram solitus esset praeoccupare<pc>,</pc> quod totum tempus usque ad solis exortum grauioribus reipublicae cogitationibus impendere consueuerat<pc>;</pc> quae tales menti eius assidue obuersabantur<pc>,</pc> quales mortalium animis uix illabi posse putares<pc>.</pc></s>
+          <s> In cognatos ac necessarios nequaquam prodigus<pc>,</pc> immo uero maxime parcus<pc>,</pc> excepto hoc piissimo fratre comite Hieronymo<pc>;</pc> quem quoniam ab inclito duce Mediolani connubio filiae dignatum cernebat<pc>,</pc> uoluit fraterna munificentia illustrare<pc>.</pc></s>
+          <s> Qua in re tale temperamentum adhibuit ut id cum ingenti honore ac laude sedis apostolicae contingeret<pc>.</pc></s>
+          <s> Vrbem enim Imolam<pc>,</pc> quae iam praefecti eius culpa ad alios deuenerat<pc>,</pc> quadraginta milibus ducatorum de propriis facultatibus redemptam imperio ecclesiae restituit<pc>.</pc></s>
+          <s> Cuius exaugendi tanto flagrabat studio ut ne minimam quidem eius particulam deperire pateretur<pc>.</pc></s>
+          <s> Vnde urbem illam magis ecclesiae quam fratris gratia uoluit uendicare<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Porro iustitiam ipsius ex illo spectare licet quod in tanta rerum potestate constitutus nemini uim attulit<pc>,</pc> nullum uiolenter oppressit<pc>.</pc></s>
+          <s> Vnde et uicario illi Imolae<pc>,</pc> quamuis de ecclesia male merito<pc>,</pc> non solum uictum<pc>,</pc> sed nihil prioribus minores fortunas dari curauit<pc>.</pc></s>
+          <s> Quattuordecim enim milia ducatorum accepit<pc>,</pc> et opulentissimum oppidum Bosti<pc>,</pc> ex quo et aliis a duce adiectis praediis plus quam quinque milia ducatorum quotannis capere poterit<pc>,</pc> neque Imolam nisi eo uolente redimere uoluit<pc>.</pc></s>
+          <s> Magistratus hortabatur ius suum absque ullo respectu cuique administrare<pc>.</pc></s>
+          <s> Et licet nonnumquam domesticorum amicorumque euictus precibus aut litteris aut nuntiis multos iudicibus commendaret<pc>,</pc> id tamen citra cuiusque iniuriam fieri uolebat<pc>.</pc></s>
+          <s> Vnde et cum a gubernatore urbis aliquando interrogaretur quidnam de illis<pc>,</pc> qui iniustam causam fouentes tamen ipsius nomine commendabantur<pc>,</pc> Illud inquit ut iustitiam mearum precum gratia minime uioles<pc>,</pc> nec secus feceris etiam si te germanus meus Hieronymus nomine meo aliud precabitur<pc>.</pc></s>
+          <s> Hoc ipsum et senatori urbis interrogatus respondit<pc>,</pc> hoc gubernatoribus<pc>,</pc> hoc praefectis<pc>,</pc> hoc omnibus legationis suae iudicibus saepe mandabat<pc>.</pc></s>
+          <s> Dicebat enim se amicis operam suam rogantibus negare non posse<pc>,</pc> sed illius causa non nisi iustum honestumque fieri permaxime uelle<pc>.</pc></s>
+          <s> Hinc et rescripta non nisi sanctissima faciebat<pc>,</pc> atque<pc>,</pc> ne cui ministrorum peccandi daretur occasio<pc>,</pc> omnium decretorum suorum<pc>,</pc> similiter et litterarum<pc>,</pc> exemplaria apud notarios exstare iusserat<pc>.</pc></s>
+          <s> Huius praeclarissimae uirtutis nec moriens obliuisci potuit<pc>;</pc> nam cum hortaretur ab amicis testamentum condere<pc>,</pc> Nihil<pc>,</pc> inquit<pc>,</pc> meum habeo<pc>,</pc> omnia sunt ecclesiae<pc>.</pc></s>
+          <s> Supplicabitis tamen meo nomine summo pontifici ut aes alienum<pc>,</pc> cuius maiorem partem pro redimendis ecclesiae rebus contraxi<pc>,</pc> pro sua benignitate dissoluat<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Cogor hoc loco potissimas eius praetermittere laudes<pc>,</pc> cum temporis exclusus angustia<pc>,</pc> tum ipsarum rerum multitudine superatus<pc>.</pc></s>
+          <s> Qualem se erga amicos<pc>,</pc> qualem erga parentes<pc>,</pc> et praesertim qualem erga ipsum summum pontificem gesserit<pc>,</pc> malo haec omnia in aliud tempus differre quam adeo felicem meritorum ipsius copiam pauca dicendo uitiare<pc>.</pc></s>
+          <s> Illud unum dicam<pc>,</pc> cunctis<pc>,</pc> qui eius consuetudinem nouerunt<pc>,</pc> attestantibus nullum fuisse tam piissimum filium<pc>,</pc> nullum adeo parenti deditum<pc>,</pc> aut cui maior et salutis et honoris genitoris sui cura fuit<pc>,</pc> quam huic uni summi pontificis nostri a prima eius familiaritatis die usque ad ultimum uitae exitum<pc>;</pc> nullos pro eo recusauit subire labores<pc>,</pc> nulla pericula deuitauit<pc>;</pc> laborantem<pc>,</pc> aegrotantem<pc>,</pc> peregrinantem nunquam deseruit<pc>,</pc> nunquam ab officio decessit<pc>,</pc> semperque ut datus a domino Tobiae angelus lateri haesit<pc>,</pc> aduersa procurauit<pc>,</pc> accersiuit prospera<pc>,</pc> pia sedulitate fouit<pc>,</pc> coluit<pc>,</pc> ueneratus est<pc>,</pc> ut nemini mirum uideri debeat si aut uiuentem tantum dilexit<pc>,</pc> aut nunc mortui desiderio adeo moueatur<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Finem dicendi faciam si prius illud summum eius pietatis munus paucis explicauero<pc>.</pc></s>
+          <s> Compositis rebus suis totam mentem ad illud conuerterat ut dicere cum psalmista libere posset: Domine<pc>,</pc> dilexi decorem domus tuae et gloriam habitationis tuae<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Proinde non cessabat ecclesias suae curae commendatas collapsas erigere<pc>,</pc> exornare deformes<pc>;</pc> praedia occupata uendicare<pc>,</pc> bona priorum rectorum distracta negligentia propriis pecuniis recuperare<pc>;</pc> uestimenta<pc>,</pc> libros<pc>,</pc> uasa sacra<pc>,</pc> et caetera ad splendorem diuini cultus spectantia maximis sumptibus coemere<pc>,</pc> et<pc>,</pc> quam prestantiora haberi poterant<pc>,</pc> comparare<pc>.</pc></s>
+          <s> Testatur hanc eius munificentiam in hac Romana urbe diui Gregorii templum et prouentibus optime auctum et aedificiis perquam magnifice instauratum<pc>;</pc> testatur Taruixii maior basilica non paruis ditata uectigalibus<pc>,</pc> et diuino cultu maxime illustrata<pc>;</pc> testatur Mediolani Ambrosii monasterium quod<pc>,</pc> cum accepisset omnibus ornamentis spoliatum<pc>,</pc> tam praeclara instruxit suppellectili ut<pc>,</pc> quod prius caeteris illius urbis obscurius esse consueuerat<pc>,</pc> nunc splendore et omnifario apparatu uincat uniuersa<pc>.</pc></s>
+          <s> Testatur Papie Maioli fanum in quo ne unum quidem uasculum in sacrificium reperit<pc>,</pc> libros autem prorsus nullos<pc>,</pc> adeo ut<pc>,</pc> quotiens diuina res patranda erat<pc>,</pc> opus esset ab aliis sacris aedibus omnia mutuari<pc>;</pc> nunc tanta cum omnium<pc>,</pc> tum praecipue libellorum<pc>,</pc> calicum<pc>,</pc> ac uestimentorum copia abundat ut aliae ecclesiae mutuum<pc>,</pc> quod prestare solebant<pc>,</pc> ab hac una omnes accipiant<pc>.</pc></s>
+          <s> Huius eiusdem fani distracta praedia multis laboribus<pc>,</pc> sed multo maioribus impensis omnia recuperauit et intra biennium plus quam decem milia ducatorum pro exaugendis rebus eius exposuit<pc>.</pc></s>
+          <s> Haec quoque sacra apostolorum aedes beneficentiam eius testari potuisset si tantum quatuor mensibus superstitem uidisset<pc>.</pc></s>
+          <s> Iam enim decreuerat et aedificiis et prouentibus hac proxima aestate ita eam instruere ut quinquaginta fratribus et commodae mansiones et necessarius uictus perpetuo suppetere posset<pc>.</pc></s>
+          <s> Insuper et bibliothecam his proximis diebus adiecturus erat praestantissimis omnium scientiarum libris egregiae refertam<pc>.</pc></s>
+          <s> Sed dei uoluntate nobis tam repente ademptus est<pc>,</pc> non quod tam piis operibus non delectaretur deus<pc>,</pc> uerum (quod ualde pertimesco) ut eum calamitatibus<pc>,</pc> quibus forsan in nostra crimina desaeuire decreuit<pc>,</pc> immeritum subtraheret<pc>,</pc> et pro adimpleto bene ministerio<pc>,</pc> cuius gratia eum procreauerat<pc>,</pc> congruis praemiis afficere non differret<pc>.</pc></s>
+          <s> Cuius miserationis dilectionisque certa indicia in ipsius uidimus morte<pc>;</pc> quam cum multis ante diebus aduentare praesentiret<pc>,</pc> intrepidus tamen expectauit<pc>.</pc></s>
+          <s> Languoris dolores mira patientia pertulit<pc>.</pc></s>
+          <s> Delicta<pc>,</pc> quae uel aetatis uel fortunae uitio pro fragilitate humana contraxerat<pc>,</pc> pia confessione saepius diligentiusque purgauit<pc>,</pc> et munitus caelesti uiatico<pc>,</pc> quod summa cum deuotione acceperat<pc>,</pc> diuinam uoluntatem accinctus praestolabatur<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Iamque uicinus morti domesticos ac familiares accersiri iubet<pc>,</pc> quibus presto exsistentibus in nullos prorupit fletus<pc>,</pc> nullis mundanarum cupiditatum desideriis ingemuit<pc>,</pc> non deum<pc>,</pc> non fortunam accusauit<pc>,</pc> nec se in medio iuuentutis flore ex tanto imperio et ex talibus operibus subtrahi uel leuiter indoluit<pc>;</pc> quin magno constantique pectore Sentio<pc>,</pc> inquit<pc>,</pc> filii fratresque mei<pc>,</pc> manum domini super me aggrauari<pc>;</pc> uolens lubensque eius presto sum uoluntati<pc>,</pc> eo quidem libentior quo me et fame et gloriae meae satis uixisse scio<pc>.</pc></s>
+          <s> Cepi enim illum ex hac mortalitate fructum quem maximum mea fortuna capere potuit<pc>.</pc></s>
+          <s> Maius restabat nihil<pc>,</pc> quicquid supererat<pc>,</pc> merito mihi suspectum metuendumque fuisset<pc>.</pc></s>
+          <s> Proinde licet cupiam dissolui et esse cum Christo<pc>,</pc> uror tamen sola uestrarum rerum cura<pc>.</pc></s>
+          <s> Cognosco enim me tenuem uobis mercedem pro meritis exhibuisse<pc>,</pc> tametsi nunquam mihi uoluntas defuerit<pc>,</pc> sed facultas<pc>.</pc></s>
+          <s> Et nisi tanta temporis angustia prohibitus fuissem<pc>,</pc> nullus uestrum meae gratitudinis uices doleret<pc>.</pc></s>
+          <s> Meritum<pc>,</pc> quod potui<pc>,</pc> moriens uobis persolui<pc>.</pc></s>
+          <s> Supplicaui summo pontifici ut beneficia<pc>,</pc> quae in me contulerat<pc>,</pc> sua clementia inter uos partiatur<pc>,</pc> ut et uos meritorum uestrorum et me non praestiti officii minus paeniteat<pc>.</pc></s>
+          <s> Ad haec compellit me et uehementius urget mea erga uos incredibilis caritas ut uos horter atque obtester ne huius mundi illecebris atque lenociniis animum uestrum inducatis<pc>,</pc> neue in luxu ac inanibus eius diuitiis spem ullam ponatis<pc>;</pc> quae quam fluxae quamque fallaces sint<pc>,</pc> ego unus uobis maximo possum esse documento<pc>.</pc></s>
+          <s> Credite quoniam puluis et umbra sumus et non hic<pc>,</pc> sed alibi permanentes habemus mansiones<pc>;</pc> ubi nihil corruptibile<pc>,</pc> nihil caducum esse potest<pc>,</pc> sed omnia incorruptibilia<pc>,</pc> omnia sempiterna<pc>.</pc></s>
+          <s> Proinde date operam probitati<pc>,</pc> et uirtuti totis uiribus incumbite<pc>.</pc></s>
+          <s> Colite pietatem et integritati nihil anteponite<pc>,</pc> scientes unicuique uestrum propositam esse a domino laborum suorum mercedem<pc>;</pc> quae etiam si nulla esset<pc>,</pc> hoc tamen ipsum pie et sancte uixisse maxima uiro bono merces esse debet<pc>,</pc> quippe cuius beneficio homines a brutis secernuntur<pc>,</pc> et nomen suum sempiternae consecrant immortalitati<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Reliquum est quod uos per uiscera misericordiae saluatoris nostri supplex deprecor ut mihi<pc>,</pc> quaecumque in uos deliqui<pc>,</pc> condonare dignemini<pc>.</pc></s>
+          <s> Minus quippe meae iuuentutis potens fui<pc>,</pc> et nonnunquam partim oculos<pc>,</pc> partim aures uestras in multis offendi<pc>.</pc></s>
+          <s> Sed eorum tanto facilius me a domino misericordiarum consecuturum confido quanto uos modestius uiuentes pro me dominum deprecabimini<pc>.</pc></s>
+          <s> Ego quoque<pc>,</pc> si quis mortuis erit sensus<pc>,</pc> idem pro uobis me spondeo facturum<pc>.</pc></s>
+          <s> Viuite mei memores et<pc>,</pc> quam caduca sit huius mundi felicitas<pc>,</pc> uel meo exemplo discite<pc>.</pc></s>
+        </p>
+            <p>
+          <s>His atque aliis huiusmodi plerisque summa cum religione sanctissime monitos singulos flentes eiulantesque deosculatus dimisit<pc>.</pc></s>
+          <s> Se autem in lectulo componens<pc>,</pc> intentis iugiter in caelum oculis<pc>,</pc> misericordiam peccatorum suorum supplex a domino precabatur<pc>.</pc></s>
+          <s> Cumque iam nox intempesta medium cursum peregisset<pc>,</pc> conuersus ad Viterbiensem praesulem Ecce<pc>,</pc> inquit<pc>,</pc> appropinquat iam hora<pc>;</pc> affer mihi sacrae unctionis oleum<pc>.</pc></s>
+          <s> Quod confestim cubiculo illatum nudato ac sublato<pc>,</pc> ut poterat<pc>,</pc> capite<pc>,</pc> religiose ueneratus est<pc>,</pc> deinde exhibitis manibus ac pedibus rite perunctus<pc>;</pc> quo facto Proferte<pc>,</pc> inquit sacros codices<pc>,</pc> et aliquid de diuinis mysteriis meam domino animam commendantes recitate<pc>.</pc></s>
+          <s> Quibus mox prolatis usque in lucem partim psalmi decantati sunt<pc>,</pc> partim lecta euangelia<pc>,</pc> semperque intentus auribus atque oculis in ea quae legebantur<pc>,</pc> etiam deficiente spiritu<pc>,</pc> perstitit<pc>,</pc> donec lector dominicae passionis ad illum locum peruenit ubi scriptura inquit et inclinato capite emisit spiritum<pc>.</pc></s>
+        </p>
+            <p>
+          <s>Ad hanc uocem illa dilecta deo anima ueluti certo accepto signo ad dominum suum confestim euolauit<pc>.</pc></s>
+        </p>
+            <p>
+          <s>O felix atque iterum felix cui et uita summam dedit gloriam et mors ipsa meritam diuinitatem non denegauit<pc>.</pc></s>
+          <s> Non est ergo quod eius casu ingemiscere habeamus<pc>,</pc> quoniam in paucis annis maximam aetatem compleuit<pc>;</pc> nec sibi nec gloriae suae parum uixit qui<pc>,</pc> quaecumque unius hominis fortuna capere potuit<pc>,</pc> abunde consecutus est<pc>.</pc></s>
+          <s> Nobis forsan amplius uiuere poterat<pc>,</pc> et nimirum magno et ornamento et utilitati<pc>.</pc></s>
+          <s> Sed non est amicorum officium sua commoda ex amici spectare incommodis<pc>.</pc></s>
+          <s> Quicquid superuixisset<pc>,</pc> doloribus superuixisset et laboribus<pc>;</pc> quibus quoniam eum diuina clementia misericorditer subduxit<pc>,</pc> gratias illi agamus atque dicamus Dominus dedit<pc>,</pc> dominus abstulit<pc>;</pc> sicut domino placuit<pc>,</pc> ita factum est<pc>;</pc> sit nomen domini benedictum<pc>.</pc></s>
+          <s> Amen<pc>.</pc></s>
+        </p>
+            <closer>
+          <s>ET SIC EST FINIS<pc>.</pc></s>
+        </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
