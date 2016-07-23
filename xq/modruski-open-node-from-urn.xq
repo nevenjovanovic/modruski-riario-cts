@@ -1,7 +1,7 @@
 declare namespace functx = "http://www.functx.com";
 declare function functx:substring-before-last
-  ( $arg as xs:string? ,
-    $delim as xs:string )  as xs:string {
+  ( $arg ,
+    $delim ) {
 
    if (matches($arg, $delim))
    then replace($arg,
@@ -10,22 +10,12 @@ declare function functx:substring-before-last
    else ''
  } ;
 declare function functx:substring-after-last
-  ( $arg as xs:string? ,
-    $delim as xs:string )  as xs:string {
+  ( $arg ,
+    $delim ) {
 
    replace ($arg,concat('^.*',$delim),'')
  } ;
-let $cts := <online type="xml" urn="urn:cts:croala:modr-n.oratio-riar.croala-loci:" docname="modr-n-oratio-riar-jovanovic-loci.xml">
-    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-    <citationMapping>
-      <citation label="sectio" scope="/tei:TEI/tei:text/tei:body/tei:div" xpath="/tei:*[@n='?']">
-        <citation label="sententia" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:*[@n='?']" xpath="/tei:s[@n='?']">
-          <citation label="locus" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:*[@n='?']/tei:s[@n='?']" xpath="/tei:placeName[@n='?']"/>
-          
-        </citation>
-      </citation>
-    </citationMapping>
-  </online>
+let $cts := collection("modruskicitconfig")//*:online
 let $test := (
   "urn:cts:croala:modr-n.oratio-riar.croala-loci:p10.s2.locus10",
   "urn:cts:croala:modr-n.oratio-riar.croala-loci:p3.s17.locus11",
