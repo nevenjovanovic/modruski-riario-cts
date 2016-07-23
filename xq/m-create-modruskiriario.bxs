@@ -1,0 +1,1 @@
+XQUERY db:create("modruskiriario", "/home/croala/modruski-riario-cts/XML/*.xml", (), map { 'ftindex': true(), 'chop': false(), 'intparse' : true() })

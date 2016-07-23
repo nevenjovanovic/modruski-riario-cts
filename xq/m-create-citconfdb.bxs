@@ -1,0 +1,1 @@
+XQUERY db:create("modruskicitconfig", "/home/croala/modruski-riario-cts/citationconfig.xml", (), map { 'ftindex': true(), 'chop': false(), 'intparse' : true() })
