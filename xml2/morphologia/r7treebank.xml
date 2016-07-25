@@ -1,0 +1,93 @@
+<treebank xmlns:saxon='http://saxon.sf.net/' xml:lang='lat' format='aldt' direction='ltr' version='1.5'>
+  <date>2016-07-23 08:20:22 +0000</date>
+  <annotator>
+    <short/>
+    <name/>
+    <address/>
+    <uri>http://services2.perseids.org/llt/segtok</uri>
+  </annotator>
+  <annotator>
+    <short/>
+    <name/>
+    <address/>
+    <uri>http://github.com/latin-language-toolkit/arethusa</uri>
+  </annotator>
+  <annotator>
+    <short>nevenjovanovic-aai</short>
+    <name>Neven Jovanovic</name>
+    <address>neven.jovanovic@ffzg.hr</address>
+    <uri>http://data.perseus.org/sosol/users/nevenjovanovic-aai</uri>
+  </annotator>
+  <sentence id='1' document_id='' subdoc='' span=''>
+    <word id='1' form='Accipiebat' lemma='accipio' postag='v3siia---' relation='' head=''/>
+    <word id='2' form='praeterea' lemma='praeterea' postag='d--------' relation='' head=''/>
+    <word id='3' form='munera' lemma='munus' postag='n-p---na-' relation='' head=''/>
+    <word id='4' form=',' lemma='punc1' postag='u--------' relation='AuxX' head='0'/>
+    <word id='5' form='non' lemma='non' postag='d--------' relation='' head=''/>
+    <word id='6' form='auaritiae' lemma='avaritia' postag='n-s---fg-' relation='' head=''/>
+    <word id='7' form=',' lemma='punc1' postag='u--------' relation='AuxX' head='0'/>
+    <word id='8' form='sed' lemma='sed' postag='c--------' relation='' head=''/>
+    <word id='9' form='honoris' lemma='honor' postag='n-s---mg-' relation='' head=''/>
+    <word id='10' form='comparandaeque' lemma='comparo2' postag='v-s-g-fg-' relation='' head=''/>
+    <word id='11' form='beniuolentiae' lemma='benevolentia' postag='n-s---fg-' relation='' head=''/>
+    <word id='12' form='gratia' lemma='gratia' postag='n-s---fb-' relation='' head=''/>
+    <word id='13' form=',' lemma='punc1' postag='u--------' relation='AuxX' head='0'/>
+    <word id='14' form='quibus' lemma='qui2' postag='p-p---nb-' relation='' head=''/>
+    <word id='15' form='tamen' lemma='tamen' postag='d--------' relation='' head=''/>
+    <word id='16' form='in' lemma='in' postag='r--------' relation='' head=''/>
+    <word id='17' form='acceptandis' lemma='accepto' postag='v-p-g-nb-' relation='' head=''/>
+    <word id='18' form='ea' lemma='is' postag='p-s---fb-' relation='' head=''/>
+    <word id='19' form='lege' lemma='lex' postag='n-s---fb-' relation='' head=''/>
+    <word id='20' form='utebatur' lemma='utor' postag='v3siid---' relation='' head=''/>
+    <word id='21' form='ut' lemma='ut' postag='c--------' relation='' head=''/>
+    <word id='22' form='multo' lemma='multo' postag='d-------p' relation='' head=''/>
+    <word id='23' form='ampliora' lemma='amplus' postag='a-p---nac' relation='' head=''/>
+    <word id='24' form='rependeret' lemma='rependo' postag='v3sisa---' relation='' head=''/>
+    <word id='25' form='quam' lemma='quam' postag='d--------' relation='' head=''/>
+    <word id='26' form='acciperet' lemma='accipio' postag='v3sisa---' relation='' head=''/>
+    <word id='27' form='.' lemma='punc1' postag='u--------' relation='AuxK' head='0'/>
+  </sentence>
+  <sentence id='2' document_id='' subdoc='' span=''>
+    <word id='1' form='Testes' lemma='testis1' postag='n-p---mn-' relation='' head=''/>
+    <word id='2' form='sunt' lemma='sum1' postag='v3ppia---' relation='' head=''/>
+    <word id='3' form='omnes' lemma='omnis' postag='a-p---mn-' relation='' head=''/>
+    <word id='4' form='qui' lemma='qui2' postag='p-s---mn-' relation='' head=''/>
+    <word id='5' form='hac' lemma='hic' postag='p-s---fb-' relation='' head=''/>
+    <word id='6' form='officiorum' lemma='officium' postag='n-p---ng-' relation='' head=''/>
+    <word id='7' form='uicissitudine' lemma='vicissitudo' postag='n-s---fb-' relation='' head=''/>
+    <word id='8' form='cum' lemma='cum' postag='r--------' relation='' head=''/>
+    <word id='9' form='eo' lemma='is' postag='p-s---mb-' relation='' head=''/>
+    <word id='10' form='decertare' lemma='decerto' postag='v--pna---' relation='' head=''/>
+    <word id='11' form='uoluerunt' lemma='volvo' postag='v3pria---' relation='' head=''/>
+    <word id='12' form='.' lemma='punc1' postag='u--------' relation='AuxK' head='0'/>
+  </sentence>
+  <sentence id='3' document_id='' subdoc='' span=''>
+    <word id='1' form='Complures' lemma='complures' postag='a-p---ma-' relation='' head=''/>
+    <word id='2' form='in' lemma='in' postag='r--------' relation='' head=''/>
+    <word id='3' form='hoc' lemma='hic' postag='p-s---mb-' relation='' head=''/>
+    <word id='4' form='coetu' lemma='coitus2' postag='n-s---mb-' relation='' head=''/>
+    <word id='5' form='astare' lemma='asto' postag='v--pna---' relation='' head=''/>
+    <word id='6' form='non' lemma='non' postag='d--------' relation='' head=''/>
+    <word id='7' form='dubito' lemma='dubito' postag='v1spia---' relation='' head=''/>
+    <word id='8' form='qui' lemma='qui2' postag='p-s---mn-' relation='' head=''/>
+    <word id='9' form='me' lemma='ego' postag='p-s---ma-' relation='' head=''/>
+    <word id='10' form='uera' lemma='verus' postag='a-p---na-' relation='' head=''/>
+    <word id='11' form='praedicare' lemma='praedico1' postag='v--pna---' relation='' head=''/>
+    <word id='12' form='nouerunt' lemma='nosco' postag='v3pria---' relation='' head=''/>
+    <word id='13' form=',' lemma='punc1' postag='u--------' relation='AuxX' head='0'/>
+    <word id='14' form='et' lemma='et' postag='c--------' relation='' head=''/>
+    <word id='15' form='qui' lemma='qui2' postag='p-s---mn-' relation='' head=''/>
+    <word id='16' form='post' lemma='post' postag='r--------' relation='' head=''/>
+    <word id='17' form='acceptos' lemma='accipio' postag='v-prppma-' relation='' head=''/>
+    <word id='18' form='ab' lemma='ab' postag='r--------' relation='' head=''/>
+    <word id='19' form='eo' lemma='is' postag='p-s---mb-' relation='' head=''/>
+    <word id='20' form='non' lemma='non' postag='d--------' relation='' head=''/>
+    <word id='21' form='paruos' lemma='parvus' postag='a-p---ma-' relation='' head=''/>
+    <word id='22' form='honores' lemma='honor' postag='n-p---ma-' relation='' head=''/>
+    <word id='23' form='multa' lemma='multus' postag='a-p---na-' relation='' head=''/>
+    <word id='24' form='insuper' lemma='insuper' postag='d--------' relation='' head=''/>
+    <word id='25' form='dona' lemma='donum' postag='n-p---na-' relation='' head=''/>
+    <word id='26' form='tulerunt' lemma='fero' postag='v3pria---' relation='' head=''/>
+    <word id='27' form='.' lemma='punc1' postag='u--------' relation='AuxK' head='0'/>
+  </sentence>
+</treebank>
